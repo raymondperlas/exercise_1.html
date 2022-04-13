@@ -1,0 +1,37 @@
+body{
+    margin: 0 20 0 20;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+.container {
+width: 572px;
+height: 500px;
+background-color:rgba(39, 39, 37, 0.932);
+padding: 35px 0px 20px 20px;
+
+}
+
+.picture {
+    height: 350px;
+    width: 550px;
+    margin-top: 10px;
+    
+    
+}
+
+.logo {
+width: 65px;
+height:65px;
+margin-top: 15px;
+border-radius: 9999px;
+}
+
+.logo details {
+text-align: center;
+text color:white;
+
+}
