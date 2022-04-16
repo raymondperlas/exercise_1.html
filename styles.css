@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+.comparison {
+  display: flex;
+  gap: 20px;
+}
+
+.card-container {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card-container .card-hero {
+  position: relative;
+  display: flex;
+}
+
+.card-container .card-hero .card-picture {
+  height: 191px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-container .card-hero .card-timestamp {
+  background-color: #111;
+  color: white;
+  position: absolute;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 1px 3px;
+  margin: 0;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 3px;
+}
+
+.card-container .card-content {
+  background-color: #222;
+  padding: 10px 0;
+  display: flex;
+}
+
+.card-container .card-content .card-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+}
+
+.card-container .card-content .card-details {
+  color: white;
+  padding-left: 10px;
+}
+
+.card-container .card-content .card-details h2,
+.card-container .card-content .card-details p {
+  margin: 0;
+}
+
+.card-container .card-content .card-details h2 {
+  font-size: 0.95em;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+}
+
+.card-container .card-content .card-details p {
+  font-size: 0.85em;
+  opacity: 0.5;
+  margin-bottom: 3.5px;
+}
+
+.card-container .card-content .card-details p.card-channel-name {
+  color: white;
+  display: flex;
+  aligm-items: center;
+}
